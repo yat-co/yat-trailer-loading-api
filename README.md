@@ -6,7 +6,7 @@ To read more about the trailer load optimization, see the README file in [PyPi -
 
 # Setup
 
-To build your own trailer loading API micro-service, complete the following.
+To host your own trailer loading API micro-service, follow the instructions in this section.
 
 ## Environment File
 
@@ -22,13 +22,17 @@ echo detached
 docker-compose -f docker-compose.yaml build --no-cache && docker-compose -f docker-compose.yaml up -d
 ```
 
-The API can then be accessed using the url `http://localhost`.
+The API can then be accessed at `http://localhost`.
 
 ## Hosting Directly on Your Machine
 
-Install requirements in `requirements.txt`, and run the following from the root directory of this project.
+Install requirements in `requirements.txt`. 
+```bash 
+pip install -r requirements.txt 
+```
+Run the following from the root directory of this project.
 ```
 python main.py
 ```
 
-The API cn then be accessed using the url `http://localhost:5000`.
+The API cn then be accessed at `http://localhost:5000`.
