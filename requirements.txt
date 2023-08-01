@@ -18,5 +18,5 @@ python-dateutil==2.8.2
 python-decouple==3.6
 six==1.16.0
 typing_extensions==4.4.0
-Werkzeug==2.2.2
+Werkzeug==2.2.3
 ytl==1.0.1
