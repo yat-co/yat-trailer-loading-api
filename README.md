@@ -35,4 +35,4 @@ Run the following from the root directory of this project.
 python main.py
 ```
 
-The API cn then be accessed at `http://localhost:5000`.
+The API can then be accessed at `http://localhost:5000`.
