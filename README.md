@@ -30,9 +30,10 @@ Install requirements in `requirements.txt`.
 ```bash 
 pip install -r requirements.txt 
 ```
+
 Run the following from the root directory of this project.
 ```
-python main.py
+uvicorn main:app --host 0.0.0.0 --reload --port 5000
 ```
 
 The API cn then be accessed at `http://localhost:5000`.
