@@ -1,16 +1,11 @@
-version: '3.9'
 services:
   trailer-load-api:
     build: 
       context: .
       dockerfile: .Dockerfile
-    environment:
-      - API_HOST=0.0.0.0
-      - API_PORT=80
     ports: 
       - "80:80"
     volumes:
       - type: bind
         target: /app/logs
         source: ./logs
-        
